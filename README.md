@@ -22,9 +22,9 @@
 
 ## 스크린샷
 
-![Worldcup image 1](docs/images/worldcup-1.png)
+![Worldcup image 1](docs/images/worldcup-1.jpg)
 
-![Worldcup image 2](docs/images/worldcup-2.png)
+![Worldcup image 2](docs/images/worldcup-2.jpg)
 
 ## 릴리즈 노트
 

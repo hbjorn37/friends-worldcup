@@ -1,41 +1,41 @@
-# friends-worldcup (절친 월드컵)
+# friends-worldcup
 
-![절친 월드컵](docs/images/worldcup-splash.jpg)
+![Friends World Cup](docs/images/worldcup-splash.jpg)
 
-웹에서 자신의 이상형이나 친구들 사진을 가지고 재미있는 월드컵 게임을 즐길 수 있습니다. 컴퓨터의 이미지 파일을 이용하여 즐기는 웹 기반 절친 찾기 월드컵 게임입니다.
+A web-based "friends world cup" game. Pick photos of your friends (or your ideal types) from your own computer and play a fun tournament to find your favorite.
 
-아래 주소에서 크롬 확장 어플리케이션으로도 설치가 가능합니다.
+It can also be installed as a Chrome extension:
 
 <https://chrome.google.com/webstore/detail/nlcmnbcpdocigdogindcaoejejedbfnb>
 
-## 사용법
+## Usage
 
-- 파일 선택 버튼을 눌러 사진을 선택합니다. (최소 2장 이상의 파일을 선택해야 합니다.)
-- 사진 개수에 따라 결승, 4강, 8강, 16강이 자동으로 구성됩니다. (사진은 무작위로 선택됨)
-- 사진이 화면에 표시되면 순서대로 사진을 선택하여 월드컵 게임을 즐기면 됩니다.
+- Click the file select button and choose photos. (You must select at least 2 files.)
+- The tournament (final, semifinals, quarterfinals, round of 16) is built automatically according to the number of photos. Photos are picked at random.
+- When the photos appear on the screen, choose one at a time to play the tournament.
 
-## 주요 기능
+## Features
 
-- 절친/이상형 월드컵 게임을 즐길 수 있음
-- 자신의 컴퓨터에 있는 사진을 사용
-- 선택한 사진 수에 맞게 16강, 8강, 4강, 결승 게임이 자동 선택됩니다.
+- Play a friends / ideal type world cup game
+- Uses photos from your own computer
+- The round of 16, quarterfinals, semifinals, and final are selected automatically to match the number of photos
 
-## 스크린샷
+## Screenshots
 
 ![Worldcup image 1](docs/images/worldcup-1.jpg)
 
 ![Worldcup image 2](docs/images/worldcup-2.jpg)
 
-## 릴리즈 노트
+## Release Notes
 
 ### v1.1.0
 
-- 사진 16장 이상 제한 사라짐
-- 게임이 끝난 후 새게임 버튼 추가
+- Removed the 16-photo minimum limit
+- Added a "New Game" button after a game ends
 
 ### v1.0.0
 
-- 최초 릴리즈
+- Initial release
 
 ---
 

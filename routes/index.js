@@ -20,5 +20,5 @@ exports.index = function(req, res) {
         client.quit();
     });
 
-    res.render('index', { title: '절친 월드컵' });
+    res.render('index', { title: 'Friends World Cup' });
 };

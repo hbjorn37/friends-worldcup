@@ -1,6 +1,6 @@
 ﻿<html>
 <head>
-<title>친구 맞추기</title>
+<title>Guess the Friend</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <style>
 html,body{margin:0;padding:0;height:100%}
@@ -15,7 +15,7 @@ background:url('images/bg_deco3.png') left top no-repeat,url('images/bg_deco1.pn
 .frame img{width:218px;height:289px;background:gray;cursor:pointer}
 
 .vs{position:absolute;left:50%;top:50%;width:180px;height:150px;margin-top:-75px;margin-left:-90px;background:url('images/vs.png')}
-.name{height:94px;margin-top:10px;padding-top:25px;background:url('images/label.png') left top no-repeat;font-family:'돋움';font-size:30px;font-weight:bold;text-align:center}
+.name{height:94px;margin-top:10px;padding-top:25px;background:url('images/label.png') left top no-repeat;font-family:'Dotum',sans-serif;font-size:30px;font-weight:bold;text-align:center}
 </style>
 
 <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
@@ -24,13 +24,13 @@ background:url('images/bg_deco3.png') left top no-repeat,url('images/bg_deco1.pn
 
 <body>
 <div class="wrap">
-	<h1>친구 맞추기</h1>
+	<h1>Guess the Friend</h1>
 	<div id="intro" class="box2">
 		<div class="noti">
-		<h2>사용법</h2>
+		<h2>How to play</h2>
 		<ol>
-			<li>게임 후보가 되는 사람들의 이미지 파일을 준비한다.</li>
-			<li>파일선택  버튼을 눌러 위에서 준비한 이미지 파일을 선택한다.</li>
+			<li>Prepare image files of the people who will be the candidates.</li>
+			<li>Click the file select button and choose the image files you prepared.</li>
 		</ol>
 		<p><input id="file" type="file" multiple></p>
 		</div>
@@ -39,7 +39,7 @@ background:url('images/bg_deco3.png') left top no-repeat,url('images/bg_deco1.pn
 		<div id="frame" class="frame">
 		    <img id="image" src="images/no_contact_icon.png"><div id="name" class="name"></div>
 		    <div style="text-align:center">
-		        <button id="correct">정답</button>&nbsp;<button id="incorrect">오답</button>
+		        <button id="correct">Correct</button>&nbsp;<button id="incorrect">Wrong</button>
 		    </div>
 		</div>
 	</div>

@@ -1,6 +1,6 @@
 ﻿{
-  "name": "절친 월드컵",
-  "description": "친구들 사진을 넣고 재미있는 절친 월드컵 게임을 즐길 수 있습니다.",
+  "name": "Friends World Cup",
+  "description": "Add photos of your friends and enjoy a fun friends world cup game.",
   "version": "1.1.0",
   "manifest_version": 2,
   "app": {

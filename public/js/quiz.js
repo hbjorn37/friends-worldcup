@@ -68,5 +68,5 @@ draw = function() {
 };
 
 getName = function(filename) {
-    return filename.replace(/(모바일|개발지원)-[012345C]-/, '').replace(/.jpg/i, '');
+    return filename.replace(/(mobile|devsupport)-[012345C]-/, '').replace(/.jpg/i, '');
 };

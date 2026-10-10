@@ -30,7 +30,7 @@ readFile = function(event) {
 	var files = event.target.files;
 
 	if (files.length < 2) {
-		alert('최소 2명 이상을 선택해 주세요.');
+		alert('Please select at least 2 photos.');
 		return;
 	} else if (files.length < 4) {
 		ALL_ROUNDS = 2;
@@ -72,7 +72,7 @@ win = function(seed) {
 	case 8:
 	case 4:
 		game.winners.push(winner);
-		console.log(game.type + '강', game.round + '라운드:', game.winners);
+		console.log('Round of ' + game.type, 'match ' + game.round + ':', game.winners);
 		if (game.round === (game.type / 2)) {
 			game.type = (game.type / 2);
 			game.round = 1;
@@ -85,7 +85,7 @@ win = function(seed) {
 		break;
 
 	case 2:
-		console.log('결승: ', winner);
+		console.log('Final: ', winner);
 		var reader = new FileReader();
 		reader.onload = function(e) {
 			$('#winner_image').removeAttr("src").attr('src', e.target.result);
@@ -108,11 +108,11 @@ draw = function() {
 	case 16:
 	case 8:
 	case 4:
-		$('#round_title').text(game.type + '강, ' + game.round + '라운드');
+		$('#round_title').text('Round of ' + game.type + ', Match ' + game.round);
 		break;
 
 	case 2:
-		$('#round_title').text('결승');
+		$('#round_title').text('Final');
 		break;
 
 	default:
